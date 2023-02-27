@@ -1,0 +1,18 @@
+<div class="container col-6 my-5">
+    <form>
+        <div class="form-group">
+            <label >Name</label>
+            <input type="text" class="form-control" placeholder="Enter Your Name" 
+            [(ngModel)] = "cource['name']" name="name"
+            >
+        </div>
+
+        <div class="form-group">
+            <label>Doctor Name</label>
+            <input type="text" class="form-control" placeholder="Enter Your Doctor Name"
+            [(ngModel)] = "cource['doctorName']" name="doctorName"
+            >
+        </div>
+        <button type="submit" class="btn btn-primary"  (click)="update()" >Update</button>
+    </form>
+</div>

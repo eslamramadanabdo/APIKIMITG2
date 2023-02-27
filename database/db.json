@@ -1,0 +1,39 @@
+{
+  "student": [
+    {
+      "id": 1,
+      "name": "eslam ramadan",
+      "age": 21,
+      "level": 4,
+      "GPA": 3.8
+    }
+  ],
+  "doctor": [
+    {
+      "id": 1,
+      "name": "Dr : Ahmed Moahmed",
+      "Cource": "full stack"
+    }
+  ],
+  "cource": [
+    {
+      "id": 1,
+      "name": "Front end , Backend",
+      "doctorName": "Ahmed Mohmaed"
+    }
+  ],
+  "department": [
+    {
+      "id": 1,
+      "name": "Marketing New"
+    },
+    {
+      "id": 2,
+      "name": "Programming"
+    },
+    {
+      "name": "Computer Science",
+      "id": 4
+    }
+  ]
+}
